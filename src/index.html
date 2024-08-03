@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Madimi+One&family=Pacifico&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <title>Notes App</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg container-fluid">
+            <div class="container">
+                <a class="navbar-brand">NotesApp</a>
+                <form class="d-flex">
+                    <input id="search-note" class="form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                </form>
+                <select class="select-note w-10 p-2">
+                    <option id="all-notes-link">active</option>
+                    <option id="archived-notes-link">archive</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <note-form></note-form>
+            </section>
+            <section>
+                <notes-component></notes-component>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

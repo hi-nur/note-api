@@ -1,0 +1,26 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+$bg-primary:rgb(29, 31, 31);
+$font-brand: rgb(255, 30, 240);
+
+body{
+    background: black;
+}
+
+.navbar{
+    background: $bg-primary;
+}
+
+.navbar-brand{
+    font-family: "Lobster", sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        letter-spacing: 9px;
+        color:  $font-brand;
+}
+
+.select-note{
+    border-radius: 10px;
+}
+
+
